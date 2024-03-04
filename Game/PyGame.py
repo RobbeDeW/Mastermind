@@ -22,7 +22,7 @@ BLACK = (0, 0, 0)
 COLORS = [RED, GREEN, BLUE, YELLOW, CYAN, MAGENTA]
 
 # Rijen en cirkelafmetingen
-ROW_COUNT = 8
+ROW_COUNT = 11
 CIRCLE_RADIUS = 20
 GAP = 10
 
@@ -84,6 +84,9 @@ def generate_hint(guess):
 
 # Definieer een functie om een bericht weer te geven op het scherm
 def display_message(message):
+    WIDTH, HEIGHT = 1000, 700
+    SCREEN = pygame.display.set_mode((WIDTH, HEIGHT))
+    SCREEN.fill(BLACK)
     font = pygame.font.Font(None, 36)  # Kies een lettertype en lettergrootte
     text = font.render(message, True, WHITE)  # Render het bericht in witte kleur
     text_rect = text.get_rect(center=(WIDTH // 2, HEIGHT // 2))  # Centreer het bericht op het scherm
@@ -93,6 +96,7 @@ def main():
     running = True
     guesses = []
     hints = []
+    num_guesses = 0
 
     while running:
         SCREEN.fill(BLACK)
@@ -113,13 +117,14 @@ def main():
                         if len(guesses[-1]) == 4:
                             hint = generate_hint(guesses[-1])
                             hints.append(hint)
+                            num_guesses += 1
 
                             # Controleer of de laatst toegevoegde hint alleen rode ballen bevat
                             if hint == [RED, RED, RED, RED]:
                                 display_message("Gefeliciteerd! Je hebt de code geraden!")
                                 pygame.display.update()
                                 pygame.time.delay(5000)
-                                running = False  # Stop het spel als de speler heeft gewonnen
+                                running = False  
 
         draw_color_buttons()
 
@@ -129,6 +134,13 @@ def main():
             if i < len(hints):
                 for j, color in enumerate(hints[i]):
                     pygame.draw.circle(SCREEN, color, (WIDTH // 2 + 150 + j * (CIRCLE_RADIUS), 150 + i * (2 * CIRCLE_RADIUS + GAP)), CIRCLE_RADIUS // 2)
+
+            # Voeg een bericht toe als de speler het spel verlaat voordat alle gissingen zijn gemaakt
+        if num_guesses >= 10:
+            display_message("Je hebt alle gissingen opgebruikt! Het spel is voorbij.")
+            pygame.display.update()
+            pygame.time.delay(5000)
+            running = False
 
         pygame.display.update()
 

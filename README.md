@@ -10,3 +10,13 @@ Een ander belangrijk aspect is de keuze van de AI-tactiek. Moeten we vertrouwen 
 Het selecteren van de juiste strategieën en tactieken vereist een grondige analyse van de verschillende benaderingen, hun voor- en nadelen, en hun geschiktheid voor het specifieke doel van de AI. Bovendien moeten we rekening houden met factoren zoals geheugen- en rekenkrachtbeperkingen, aangezien deze de implementatie en prestaties van de AI kunnen beïnvloeden.
 
 In essentie vraagt het maken van een AI voor Mastermind om een zorgvuldige afweging tussen snelheid, efficiëntie en complexiteit, waarbij de gekozen aanpak moet zorgen voor een gebalanceerde en effectieve oplossing voor het probleem.
+
+## Analyse
+
+## Resultaat
+
+## Uitbreiding
+
+## Conclusie 
+
+## Bibliografie

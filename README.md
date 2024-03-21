@@ -13,6 +13,7 @@ In essentie vraagt het maken van een AI voor Mastermind om een zorgvuldige afweg
 
 ## Analyse
 
+
 ## Resultaat
 
 ## Uitbreiding

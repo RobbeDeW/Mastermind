@@ -13,10 +13,16 @@ In essentie vraagt het maken van een AI voor Mastermind om een zorgvuldige afweg
 
 ## Analyse
 
-
 ## Resultaat
 
 ## Uitbreiding
+Het uitbreiden van een project waarbij een AI voor Mastermind wordt ontwikkeld, biedt talloze mogelijkheden om de functionaliteit en bruikbaarheid te verbeteren. Allereerst kunnen verschillende tactieken worden toegevoegd aan de AI, waardoor deze een breder scala aan strategieën kan toepassen bij het oplossen van kleurcodes. Dit omvat bijvoorbeeld het implementeren van brute force, min-max, en heuristische benaderingen, waardoor de AI zich kan aanpassen aan verschillende spelomstandigheden en niveaus van complexiteit.
+
+Een andere waardevolle uitbreiding is het toevoegen van een functionaliteit waarmee gebruikers tegen de AI kunnen spelen. Dit biedt niet alleen een uitdagende speelervaring, maar stelt ook de AI bloot aan verschillende speelstijlen en niveaus van vaardigheid, waardoor deze zich verder kan ontwikkelen en verbeteren.
+
+Bovendien kan de interactie met de gebruiker worden verbeterd door het implementeren van een meer intuïtieve en responsieve gebruikersinterface. Dit omvat het weergeven in hoeveel zetten de kleuren code is geraden geweest, een scoreboard die de beste scores bijhoud van in hoeveel zetten de code is gevonden.
+
+Door deze uitbreidingen toe te passen, kan het project een meer dynamische en boeiende spelervaring bieden, waarbij zowel gebruikers als de AI worden uitgedaagd en gestimuleerd om hun vaardigheden te verbeteren.
 
 ## Conclusie 
 

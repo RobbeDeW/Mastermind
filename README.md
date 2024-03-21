@@ -25,5 +25,12 @@ Bovendien kan de interactie met de gebruiker worden verbeterd door het implement
 Door deze uitbreidingen toe te passen, kan het project een meer dynamische en boeiende spelervaring bieden, waarbij zowel gebruikers als de AI worden uitgedaagd en gestimuleerd om hun vaardigheden te verbeteren.
 
 ## Conclusie 
+Na het voltooien van ons project voor het ontwikkelen van een AI voor Mastermind, kunnen we concluderen dat we een werkend en functioneel product hebben opgeleverd. De AI is in staat om kleurcodes op te lossen en biedt een uitdagende spelervaring voor gebruikers. Echter, bij het evalueren van ons werk realiseren we ons dat er ruimte is voor verbetering.
+
+Tijdens de ontwikkeling van ons project hebben we een solide basis gelegd met geïmplementeerde strategieën. Echter, we beseffen dat er nog meer geavanceerde tactieken beschikbaar zijn die we hadden kunnen onderzoeken en integreren om de prestaties en veelzijdigheid van onze AI verder te verbeteren. Deze onbenutte mogelijkheden bieden interessante perspectieven voor toekomstige ontwikkeling en optimalisatie van het project. 
+
+Bovendien hebben we vastgesteld dat de interactie met de gebruiker, hoewel functioneel, nog verder verbeterd kan worden om een nog intuïtievere en boeiendere ervaring te bieden. Dit omvat het toevoegen van meer geavanceerde feedbackmechanismen en interactieve functies die de gebruikersbetrokkenheid vergroten.
+
+Desondanks zijn we tevreden met de resultaten van ons project en zien we het als een solide basis voor toekomstige verbeteringen en uitbreidingen. Met deze conclusies in gedachten zijn we enthousiast om verder te gaan met het verfijnen en verbeteren van onze AI voor Mastermind, om zo een nog betere en bevredigende spelervaring te bieden aan onze gebruikers.
 
 ## Bibliografie

@@ -16,7 +16,68 @@ In essentie vraagt het maken van een AI voor Mastermind om een zorgvuldige afweg
 
 ## Analyse
 
+Onze analyse van de probleemstelling en de voorbereidingen voor het project waren een grondig en methodisch proces, waarbij we zorgvuldig elke stap hebben doorlopen om een stevige basis te leggen voor de ontwikkeling van onze AI-agent voor het Mastermind-spel.
+
+Om te beginnen hebben we de probleemdefinitie grondig onderzocht om een helder begrip te krijgen van de doelstellingen van ons project. We hebben vastgesteld dat ons voornaamste doel was om een AI-agent te ontwikkelen die in staat is om de geheime code in het Mastermind-spel te raden. Dit omvatte een diepgaande analyse van de spelregels, inclusief hoe de geheime code wordt gegenereerd en hoe de speler met het spel interageert.
+
+Na het vaststellen van de probleemdefinitie zijn we overgegaan tot het verzamelen van de vereisten voor het project. Dit omvatte het identificeren van de gewenste functionaliteiten van de AI-agent en het bepalen van hoe deze zou moeten communiceren met de gebruiker. We hebben hierbij een intuïtieve gebruikersinterface ontworpen en de algoritmen en methoden vastgesteld die de AI-agent zou moeten gebruiken om effectief te kunnen spelen.
+
+Een cruciaal onderdeel van onze analyse was het onderzoek naar de beschikbare gegevensbronnen. We hebben vastgesteld dat externe datasets niet nodig waren, omdat de geheime code intern wordt gegenereerd door het spel. Dit betekende dat we ons niet hoefden bezig te houden met het verzamelen of verwerken van grote hoeveelheden gegevens, waardoor de ontwikkelingstijd van het project werd verkort.
+
+Vervolgens hebben we verschillende AI-algoritmen overwogen die geschikt zouden kunnen zijn voor het oplossen van ons probleem. Na zorgvuldige evaluatie hebben we besloten om een eenvoudige brute force methode te gebruiken, waarbij alle mogelijke combinaties van kleuren worden gegenereerd en geanalyseerd om de beste gok te bepalen. Deze methode werd gekozen vanwege haar eenvoud en effectiviteit bij het oplossen van het Mastermind-spel.
+
+Een ander belangrijk aspect van onze analyse was het identificeren van de juiste tools en bibliotheken die nodig waren voor de ontwikkeling van het project. We hebben besloten om Pygame te gebruiken voor het maken van de game-omgeving, omdat het een krachtige en veelzijdige bibliotheek is voor het ontwikkelen van games in Python. Daarnaast hebben we gebruik gemaakt van de itertools-module voor het genereren van alle mogelijke combinaties van kleuren, wat ons hielp bij het implementeren van ons brute force algoritme.
+
+Tot slot hebben we gekeken naar de implementatie en distributie van onze software. We hebben verschillende opties overwogen, waaronder het omzetten van de code in een uitvoerbaar bestand, het gebruik van Docker-containers voor betere isolatie, of het verpakken van de code als een Python-pakket dat kan worden geïnstalleerd via pip. Deze keuzes werden gemaakt op basis van de specifieke behoeften van het project en de voorkeuren van ons ontwikkelteam.
+
+Door deze grondige analyse konden we een duidelijk en gestructureerd plan opstellen voor de ontwikkeling van onze AI-agent voor het Mastermind-spel, wat de basis vormde voor het succesvolle verloop van het project.
+
 ## Resultaat
+
+### Resultaat van het Mastermind AI-project
+
+#### Algemeen Overzicht:
+
+Het Mastermind AI-project heeft geresulteerd in de ontwikkeling van een intelligente agent die in staat is om de geheime code in het Mastermind-spel te raden. De agent maakt gebruik van een eenvoudig brute force-algoritme in combinatie met een intuïtieve gebruikersinterface gemaakt met Pygame. Het resultaat van het project biedt een boeiende en interactieve ervaring voor gebruikers die willen spelen tegen een uitdagende AI-tegenstander.
+
+#### Onderdelen van het Resultaat:
+
+1. **Gebruikersinterface met Pygame:**
+
+   - Beschrijving: De gebruikersinterface is ontwikkeld met behulp van de Pygame-bibliotheek, waardoor een interactieve en visueel aantrekkelijke spelomgeving is gecreëerd.
+   - Uitwerking: De interface omvat een speelveld waar de speler zijn gokken kan invoeren en de ontvangen hints kan bekijken. Daarnaast zijn er kleurrijke knoppen beschikbaar voor het selecteren van kleuren voor gokken.
+
+2. **Brute Force AI-algoritme:**
+
+   - Beschrijving: Het AI-algoritme gebruikt een brute force-benadering om alle mogelijke combinaties van kleuren te genereren en te evalueren om de beste gok te bepalen.
+   - Uitwerking: De AI-agent genereert systematisch alle mogelijke combinaties van kleuren en ontvangt feedback van het spel op basis van de hints die worden gegenereerd. Op basis hiervan past het algoritme zijn gokken aan en zoekt het naar de optimale strategie om de geheime code te raden.
+
+3. **Feedbackmechanisme:**
+   - Beschrijving: Het spel voorziet de AI-agent van hints na elke gok, wat de agent helpt bij het bepalen van de volgende zet.
+   - Uitwerking: De hints worden gegenereerd op basis van de overeenkomsten tussen de gegokte code en de geheime code. Rode hints geven aan dat de kleur en de positie correct zijn, witte hints geven aan dat de kleur correct is maar de positie niet, en zwarte hints geven aan dat er geen overeenkomsten zijn.
+
+#### Gedetailleerde Uitwerking van Onderdelen:
+
+1. **Gebruikersinterface met Pygame:**
+
+   - De Pygame-bibliotheek wordt gebruikt om de grafische gebruikersinterface van het spel te maken.
+   - De interface omvat een speelveld waar de speler zijn gokken kan invoeren en een gebied waar de ontvangen hints worden weergegeven.
+   - Kleurrijke knoppen worden weergegeven waarmee de speler kleuren kan selecteren voor zijn gokken.
+     ![Pygame Interface](pygame_interface.png)
+
+2. **Brute Force AI-algoritme:**
+
+   - Het brute force-algoritme begint met het genereren van alle mogelijke combinaties van kleuren.
+   - Vervolgens wordt elke combinatie geëvalueerd door het spel te spelen en de ontvangen hints te analyseren.
+   - Op basis van de hints past de agent zijn volgende gokken aan om zo snel mogelijk de geheime code te raden.
+
+3. **Feedbackmechanisme:**
+   - Het spel genereert hints na elke gok van de speler of de AI-agent.
+   - De hints worden weergegeven als gekleurde pinnen, waarbij rood aangeeft dat de kleur en de positie correct zijn, wit aangeeft dat de kleur correct is maar de positie niet, en zwart aangeeft dat er geen overeenkomsten zijn.
+   - Deze hints helpen de AI-agent bij het verfijnen van zijn strategie en het bepalen van zijn volgende zet.
+     ![Hints Feedback](hints_feedback.png)
+
+Door deze gedetailleerde aanpak hebben we een interactieve en uitdagende spelomgeving gecreëerd waarin gebruikers kunnen spelen tegen een intelligente AI-tegenstander. Het Mastermind AI-project heeft niet alleen geleid tot een succesvolle implementatie van het spel, maar biedt ook inzicht in de ontwikkeling van AI-agents voor het oplossen van complexe puzzels.
 
 ## Uitbreiding
 

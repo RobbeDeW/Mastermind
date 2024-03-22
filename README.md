@@ -34,8 +34,6 @@ Door deze grondige analyse konden we een duidelijk en gestructureerd plan opstel
 
 ## Resultaat
 
-### Resultaat van het Mastermind AI-project
-
 #### Algemeen Overzicht:
 
 Het Mastermind AI-project heeft geresulteerd in de ontwikkeling van een intelligente agent die in staat is om de geheime code in het Mastermind-spel te raden. De agent maakt gebruik van een eenvoudig brute force-algoritme in combinatie met een intuïtieve gebruikersinterface gemaakt met Pygame. Het resultaat van het project biedt een boeiende en interactieve ervaring voor gebruikers die willen spelen tegen een uitdagende AI-tegenstander.
@@ -63,7 +61,7 @@ Het Mastermind AI-project heeft geresulteerd in de ontwikkeling van een intellig
    - De Pygame-bibliotheek wordt gebruikt om de grafische gebruikersinterface van het spel te maken.
    - De interface omvat een speelveld waar de speler zijn gokken kan invoeren en een gebied waar de ontvangen hints worden weergegeven.
    - Kleurrijke knoppen worden weergegeven waarmee de speler kleuren kan selecteren voor zijn gokken.
-     ![Pygame Interface](pygame_interface.png)
+     ![alt text](image.png)
 
 2. **Brute Force AI-algoritme:**
 
@@ -75,7 +73,7 @@ Het Mastermind AI-project heeft geresulteerd in de ontwikkeling van een intellig
    - Het spel genereert hints na elke gok van de speler of de AI-agent.
    - De hints worden weergegeven als gekleurde pinnen, waarbij rood aangeeft dat de kleur en de positie correct zijn, wit aangeeft dat de kleur correct is maar de positie niet, en zwart aangeeft dat er geen overeenkomsten zijn.
    - Deze hints helpen de AI-agent bij het verfijnen van zijn strategie en het bepalen van zijn volgende zet.
-     ![Hints Feedback](hints_feedback.png)
+     ![alt text](image-1.png)
 
 Door deze gedetailleerde aanpak hebben we een interactieve en uitdagende spelomgeving gecreëerd waarin gebruikers kunnen spelen tegen een intelligente AI-tegenstander. Het Mastermind AI-project heeft niet alleen geleid tot een succesvolle implementatie van het spel, maar biedt ook inzicht in de ontwikkeling van AI-agents voor het oplossen van complexe puzzels.
 

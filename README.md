@@ -100,3 +100,16 @@ Bovendien hebben we vastgesteld dat de interactie met de gebruiker, hoewel funct
 Desondanks zijn we tevreden met de resultaten van ons project en zien we het als een solide basis voor toekomstige verbeteringen en uitbreidingen. Met deze conclusies in gedachten zijn we enthousiast om verder te gaan met het verfijnen en verbeteren van onze AI voor Mastermind, om zo een nog betere en bevredigende spelervaring te bieden aan onze gebruikers.
 
 ## Bibliografie
+
+1. Python. (z.d.). Geraadpleegd op 10 maart 2024, van https://www.python.org/
+2. Pygame. (z.d.). Geraadpleegd op 12 maart 2024, van https://www.pygame.org/
+3. Pip. (z.d.). Geraadpleegd op 14 maart 2024, van https://pip.pypa.io/en/stable/
+4. Mastermind (spel). (z.d.). Geraadpleegd op 8 maart 2024, van https://nl.wikipedia.org/wiki/Mastermind_(spel)
+5. Kaggle. (z.d.). Geraadpleegd op 15 maart 2024, van https://www.kaggle.com/
+6. Stack Overflow. (z.d.). Geraadpleegd op 13 maart 2024, van https://stackoverflow.com/
+7. GitHub. (z.d.). Geraadpleegd op 14 maart 2024, van https://github.com/
+8. ResearchGate. (z.d.). Geraadpleegd op 11 maart 2024, van https://www.researchgate.net/
+9. Towards Data Science. (z.d.). Geraadpleegd op 9 maart 2024, van https://towardsdatascience.com/
+10. ArXiv. (z.d.). Geraadpleegd op 7 maart 2024, van https://arxiv.org/
+11. Nederlandse Pygame Community. (z.d.). Geraadpleegd op 12 maart 2024, van https://www.pygame.org/docs/
+12. Chatgpt (ondersteuning met problemen)
